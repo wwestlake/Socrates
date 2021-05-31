@@ -1,2 +1,1 @@
-# Socrates-Prep
 # Socrates
