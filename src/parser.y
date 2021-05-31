@@ -70,10 +70,10 @@
 
 %%
 
-pillar:
+program:
     /* empty */
     | expression
-    | pillar expression
+    | program expression
     ;
 
 module_code:
@@ -83,8 +83,12 @@ module_code:
     ;
 
 expression:
-    FLT                          { $$ = MakeNumberExpr($1); }; 
-    | expression OP expression   { $$ = MakeBinaryExpr($2, std::move($1), std::move($3)); }
+    FLT                          { 
+                                    $$ = MakeNumberExpr($1); 
+                                 }; 
+    | expression OP expression   { 
+                                    $$ = MakeBinaryExpr($2, std::move($1), std::move($3)); 
+                                 }
     ;
 
 %%

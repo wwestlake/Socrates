@@ -1,5 +1,5 @@
 src/CMakeFiles/socrates.dir/soc_driver.cpp.o: \
-  /home/wwestlake/devel/Socraates-Prep/src/soc_driver.cpp \
+  /home/wwestlake/devel/Socrates/src/soc_driver.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/cctype \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/c++config.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -170,9 +170,9 @@ src/CMakeFiles/socrates.dir/soc_driver.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/fstream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/cassert \
   /usr/include/assert.h \
-  /home/wwestlake/devel/Socraates-Prep/src/soc_driver.hpp \
+  /home/wwestlake/devel/Socrates/src/soc_driver.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/cstddef \
-  /home/wwestlake/devel/Socraates-Prep/src/soc_scanner.hpp \
+  /home/wwestlake/devel/Socrates/src/soc_scanner.hpp \
   /usr/include/FlexLexer.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/memory \
@@ -199,12 +199,12 @@ src/CMakeFiles/socrates.dir/soc_driver.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward/auto_ptr.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/pstl/glue_memory_defs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/pstl/execution_defs.h \
-  /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.hh \
+  /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.hh \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/vector \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_vector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_bvector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/vector.tcc \
-  /home/wwestlake/devel/Socraates-Prep/src/SocratesAST.hpp \
+  /home/wwestlake/devel/Socrates/src/SocratesAST.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/map \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/node_handle.h \
@@ -213,4 +213,4 @@ src/CMakeFiles/socrates.dir/soc_driver.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_map.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_multimap.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/erase_if.h \
-  /home/wwestlake/devel/Socraates-Prep/build/src/location.hh
+  /home/wwestlake/devel/Socrates/build/src/location.hh

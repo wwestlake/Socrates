@@ -1,6 +1,7 @@
 #ifndef __SOCRATESAST_H
 #define __SOCRATESAST_H
 
+#include <iostream>
 #include <cctype>
 #include <cstdio>
 #include <cstdlib>
@@ -14,6 +15,8 @@
 class ExprAST {
 public:
   virtual ~ExprAST() {}
+
+
 };
 
 /// NumberExprAST - Expression class for numeric literals like "1.0".
@@ -22,6 +25,8 @@ class NumberExprAST : public ExprAST {
 
 public:
   NumberExprAST(double Val) : Val(Val) {}
+
+
 };
 
 static std::unique_ptr<NumberExprAST> MakeNumberExpr(double val)
@@ -35,6 +40,9 @@ class VariableExprAST : public ExprAST {
 
 public:
   VariableExprAST(const std::string &Name) : Name(Name) {}
+
+
+
 };
 
 static std::unique_ptr<VariableExprAST> MakeVariableExpr(const std::string &name)
@@ -51,6 +59,9 @@ public:
   BinaryExprAST(std::string op, std::unique_ptr<ExprAST> LHS,
                 std::unique_ptr<ExprAST> RHS)
     : Op(op), LHS(std::move(LHS)), RHS(std::move(RHS)) {}
+
+
+
 };
 
 static std::unique_ptr<BinaryExprAST> MakeBinaryExpr(std::string op, std::unique_ptr<ExprAST> LHS,
@@ -69,6 +80,8 @@ public:
   CallExprAST(const std::string &Callee,
               std::vector<std::unique_ptr<ExprAST>> Args)
     : Callee(Callee), Args(std::move(Args)) {}
+
+
 };
 
 
@@ -95,6 +108,8 @@ public:
   FunctionAST(std::unique_ptr<PrototypeAST> Proto,
               std::unique_ptr<ExprAST> Body)
     : Proto(std::move(Proto)), Body(std::move(Body)) {}
+
+
 };
 
 #endif // __SOCRATESAST_H

@@ -31,12 +31,12 @@
 // version 2.2 of Bison.
 
 /**
- ** \file /home/wwestlake/devel/Socraates-Prep/build/src/location.hh
+ ** \file /home/wwestlake/devel/Socrates/build/src/location.hh
  ** Define the SOC::location class.
  */
 
-#ifndef YY_YY_HOME_WWESTLAKE_DEVEL_SOCRAATES_PREP_BUILD_SRC_LOCATION_HH_INCLUDED
-# define YY_YY_HOME_WWESTLAKE_DEVEL_SOCRAATES_PREP_BUILD_SRC_LOCATION_HH_INCLUDED
+#ifndef YY_YY_HOME_WWESTLAKE_DEVEL_SOCRATES_BUILD_SRC_LOCATION_HH_INCLUDED
+# define YY_YY_HOME_WWESTLAKE_DEVEL_SOCRATES_BUILD_SRC_LOCATION_HH_INCLUDED
 
 # include <iostream>
 # include <string>
@@ -53,9 +53,9 @@
 #  endif
 # endif
 
-#line 6 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 6 "/home/wwestlake/devel/Socrates/src/parser.y"
 namespace SOC {
-#line 59 "/home/wwestlake/devel/Socraates-Prep/build/src/location.hh"
+#line 59 "/home/wwestlake/devel/Socrates/build/src/location.hh"
 
   /// A point in a source file.
   class position
@@ -327,8 +327,8 @@ namespace SOC {
     return ostr;
   }
 
-#line 6 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 6 "/home/wwestlake/devel/Socrates/src/parser.y"
 } // SOC
-#line 333 "/home/wwestlake/devel/Socraates-Prep/build/src/location.hh"
+#line 333 "/home/wwestlake/devel/Socrates/build/src/location.hh"
 
-#endif // !YY_YY_HOME_WWESTLAKE_DEVEL_SOCRAATES_PREP_BUILD_SRC_LOCATION_HH_INCLUDED
+#endif // !YY_YY_HOME_WWESTLAKE_DEVEL_SOCRATES_BUILD_SRC_LOCATION_HH_INCLUDED

@@ -1,5 +1,5 @@
 src/CMakeFiles/socrates.dir/Compiler.cpp.o: \
-  /home/wwestlake/devel/Socraates-Prep/src/Compiler.cpp \
+  /home/wwestlake/devel/Socrates/src/Compiler.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/c++config.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -164,8 +164,8 @@ src/CMakeFiles/socrates.dir/Compiler.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/istream.tcc \
-  /home/wwestlake/devel/Socraates-Prep/src/Compiler.hpp \
-  /home/wwestlake/devel/Socraates-Prep/src/defs.hpp \
+  /home/wwestlake/devel/Socrates/src/Compiler.hpp \
+  /home/wwestlake/devel/Socrates/src/defs.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/vector \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_construct.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_uninitialized.h \
@@ -174,9 +174,9 @@ src/CMakeFiles/socrates.dir/Compiler.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_vector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_bvector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/vector.tcc \
-  /home/wwestlake/devel/Socraates-Prep/src/soc_driver.hpp \
+  /home/wwestlake/devel/Socrates/src/soc_driver.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/cstddef \
-  /home/wwestlake/devel/Socraates-Prep/src/soc_scanner.hpp \
+  /home/wwestlake/devel/Socrates/src/soc_scanner.hpp \
   /usr/include/FlexLexer.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/memory \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tempbuf.h \
@@ -198,8 +198,8 @@ src/CMakeFiles/socrates.dir/Compiler.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward/auto_ptr.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/pstl/glue_memory_defs.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/pstl/execution_defs.h \
-  /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.hh \
-  /home/wwestlake/devel/Socraates-Prep/src/SocratesAST.hpp \
+  /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.hh \
+  /home/wwestlake/devel/Socrates/src/SocratesAST.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/map \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/node_handle.h \
@@ -210,4 +210,4 @@ src/CMakeFiles/socrates.dir/Compiler.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/erase_if.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/cassert \
   /usr/include/assert.h \
-  /home/wwestlake/devel/Socraates-Prep/build/src/location.hh
+  /home/wwestlake/devel/Socrates/build/src/location.hh

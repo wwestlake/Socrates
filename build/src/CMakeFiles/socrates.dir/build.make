@@ -53,10 +53,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wwestlake/devel/Socraates-Prep
+CMAKE_SOURCE_DIR = /home/wwestlake/devel/Socrates
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wwestlake/devel/Socraates-Prep/build
+CMAKE_BINARY_DIR = /home/wwestlake/devel/Socrates/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/socrates.dir/depend.make
@@ -70,86 +70,86 @@ include src/CMakeFiles/socrates.dir/progress.make
 include src/CMakeFiles/socrates.dir/flags.make
 
 src/soc_parser.tab.cc: ../src/parser.y
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[BISON][SocratesParser] Building parser with bison 3.5.1"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/bison -d -o /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc /home/wwestlake/devel/Socraates-Prep/src/parser.y
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wwestlake/devel/Socrates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[BISON][SocratesParser] Building parser with bison 3.5.1"
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/bison -d -o /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc /home/wwestlake/devel/Socrates/src/parser.y
 
 src/soc_parser.tab.hh: src/soc_parser.tab.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/soc_parser.tab.hh
 
 src/soc_lexer.yy.cc: ../src/lexer.l
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "[FLEX][SocratesScanner] Building scanner with flex 2.6.4"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/flex -o/home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc /home/wwestlake/devel/Socraates-Prep/src/lexer.l
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wwestlake/devel/Socrates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "[FLEX][SocratesScanner] Building scanner with flex 2.6.4"
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/flex -o/home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc /home/wwestlake/devel/Socrates/src/lexer.l
 
 src/CMakeFiles/socrates.dir/main.cpp.o: src/CMakeFiles/socrates.dir/flags.make
 src/CMakeFiles/socrates.dir/main.cpp.o: ../src/main.cpp
 src/CMakeFiles/socrates.dir/main.cpp.o: src/CMakeFiles/socrates.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/socrates.dir/main.cpp.o"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/main.cpp.o -MF CMakeFiles/socrates.dir/main.cpp.o.d -o CMakeFiles/socrates.dir/main.cpp.o -c /home/wwestlake/devel/Socraates-Prep/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socrates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/socrates.dir/main.cpp.o"
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/main.cpp.o -MF CMakeFiles/socrates.dir/main.cpp.o.d -o CMakeFiles/socrates.dir/main.cpp.o -c /home/wwestlake/devel/Socrates/src/main.cpp
 
 src/CMakeFiles/socrates.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socrates.dir/main.cpp.i"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socraates-Prep/src/main.cpp > CMakeFiles/socrates.dir/main.cpp.i
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socrates/src/main.cpp > CMakeFiles/socrates.dir/main.cpp.i
 
 src/CMakeFiles/socrates.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socrates.dir/main.cpp.s"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socraates-Prep/src/main.cpp -o CMakeFiles/socrates.dir/main.cpp.s
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socrates/src/main.cpp -o CMakeFiles/socrates.dir/main.cpp.s
 
 src/CMakeFiles/socrates.dir/Compiler.cpp.o: src/CMakeFiles/socrates.dir/flags.make
 src/CMakeFiles/socrates.dir/Compiler.cpp.o: ../src/Compiler.cpp
 src/CMakeFiles/socrates.dir/Compiler.cpp.o: src/CMakeFiles/socrates.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/socrates.dir/Compiler.cpp.o"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/Compiler.cpp.o -MF CMakeFiles/socrates.dir/Compiler.cpp.o.d -o CMakeFiles/socrates.dir/Compiler.cpp.o -c /home/wwestlake/devel/Socraates-Prep/src/Compiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socrates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/socrates.dir/Compiler.cpp.o"
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/Compiler.cpp.o -MF CMakeFiles/socrates.dir/Compiler.cpp.o.d -o CMakeFiles/socrates.dir/Compiler.cpp.o -c /home/wwestlake/devel/Socrates/src/Compiler.cpp
 
 src/CMakeFiles/socrates.dir/Compiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socrates.dir/Compiler.cpp.i"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socraates-Prep/src/Compiler.cpp > CMakeFiles/socrates.dir/Compiler.cpp.i
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socrates/src/Compiler.cpp > CMakeFiles/socrates.dir/Compiler.cpp.i
 
 src/CMakeFiles/socrates.dir/Compiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socrates.dir/Compiler.cpp.s"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socraates-Prep/src/Compiler.cpp -o CMakeFiles/socrates.dir/Compiler.cpp.s
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socrates/src/Compiler.cpp -o CMakeFiles/socrates.dir/Compiler.cpp.s
 
 src/CMakeFiles/socrates.dir/soc_driver.cpp.o: src/CMakeFiles/socrates.dir/flags.make
 src/CMakeFiles/socrates.dir/soc_driver.cpp.o: ../src/soc_driver.cpp
 src/CMakeFiles/socrates.dir/soc_driver.cpp.o: src/CMakeFiles/socrates.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/socrates.dir/soc_driver.cpp.o"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/soc_driver.cpp.o -MF CMakeFiles/socrates.dir/soc_driver.cpp.o.d -o CMakeFiles/socrates.dir/soc_driver.cpp.o -c /home/wwestlake/devel/Socraates-Prep/src/soc_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socrates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/socrates.dir/soc_driver.cpp.o"
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/soc_driver.cpp.o -MF CMakeFiles/socrates.dir/soc_driver.cpp.o.d -o CMakeFiles/socrates.dir/soc_driver.cpp.o -c /home/wwestlake/devel/Socrates/src/soc_driver.cpp
 
 src/CMakeFiles/socrates.dir/soc_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socrates.dir/soc_driver.cpp.i"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socraates-Prep/src/soc_driver.cpp > CMakeFiles/socrates.dir/soc_driver.cpp.i
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socrates/src/soc_driver.cpp > CMakeFiles/socrates.dir/soc_driver.cpp.i
 
 src/CMakeFiles/socrates.dir/soc_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socrates.dir/soc_driver.cpp.s"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socraates-Prep/src/soc_driver.cpp -o CMakeFiles/socrates.dir/soc_driver.cpp.s
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socrates/src/soc_driver.cpp -o CMakeFiles/socrates.dir/soc_driver.cpp.s
 
 src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o: src/CMakeFiles/socrates.dir/flags.make
 src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o: src/soc_parser.tab.cc
 src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o: src/CMakeFiles/socrates.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o -MF CMakeFiles/socrates.dir/soc_parser.tab.cc.o.d -o CMakeFiles/socrates.dir/soc_parser.tab.cc.o -c /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socrates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o"
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o -MF CMakeFiles/socrates.dir/soc_parser.tab.cc.o.d -o CMakeFiles/socrates.dir/soc_parser.tab.cc.o -c /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc
 
 src/CMakeFiles/socrates.dir/soc_parser.tab.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socrates.dir/soc_parser.tab.cc.i"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc > CMakeFiles/socrates.dir/soc_parser.tab.cc.i
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc > CMakeFiles/socrates.dir/soc_parser.tab.cc.i
 
 src/CMakeFiles/socrates.dir/soc_parser.tab.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socrates.dir/soc_parser.tab.cc.s"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc -o CMakeFiles/socrates.dir/soc_parser.tab.cc.s
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc -o CMakeFiles/socrates.dir/soc_parser.tab.cc.s
 
 src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o: src/CMakeFiles/socrates.dir/flags.make
 src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o: src/soc_lexer.yy.cc
 src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o: src/soc_parser.tab.hh
 src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o: src/CMakeFiles/socrates.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o -MF CMakeFiles/socrates.dir/soc_lexer.yy.cc.o.d -o CMakeFiles/socrates.dir/soc_lexer.yy.cc.o -c /home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwestlake/devel/Socrates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o"
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o -MF CMakeFiles/socrates.dir/soc_lexer.yy.cc.o.d -o CMakeFiles/socrates.dir/soc_lexer.yy.cc.o -c /home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc
 
 src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/socrates.dir/soc_lexer.yy.cc.i"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc > CMakeFiles/socrates.dir/soc_lexer.yy.cc.i
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc > CMakeFiles/socrates.dir/soc_lexer.yy.cc.i
 
 src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/socrates.dir/soc_lexer.yy.cc.s"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc -o CMakeFiles/socrates.dir/soc_lexer.yy.cc.s
+	cd /home/wwestlake/devel/Socrates/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc -o CMakeFiles/socrates.dir/soc_lexer.yy.cc.s
 
 # Object files for target socrates
 socrates_OBJECTS = \
@@ -173,20 +173,20 @@ src/socrates: /usr/local/lib/libboost_filesystem.so.1.73.0
 src/socrates: /usr/local/lib/libboost_system.so.1.73.0
 src/socrates: /usr/local/lib/libboost_program_options.so.1.73.0
 src/socrates: src/CMakeFiles/socrates.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable socrates"
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/socrates.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwestlake/devel/Socrates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable socrates"
+	cd /home/wwestlake/devel/Socrates/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/socrates.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/socrates.dir/build: src/socrates
 .PHONY : src/CMakeFiles/socrates.dir/build
 
 src/CMakeFiles/socrates.dir/clean:
-	cd /home/wwestlake/devel/Socraates-Prep/build/src && $(CMAKE_COMMAND) -P CMakeFiles/socrates.dir/cmake_clean.cmake
+	cd /home/wwestlake/devel/Socrates/build/src && $(CMAKE_COMMAND) -P CMakeFiles/socrates.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/socrates.dir/clean
 
 src/CMakeFiles/socrates.dir/depend: src/soc_lexer.yy.cc
 src/CMakeFiles/socrates.dir/depend: src/soc_parser.tab.cc
 src/CMakeFiles/socrates.dir/depend: src/soc_parser.tab.hh
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wwestlake/devel/Socraates-Prep /home/wwestlake/devel/Socraates-Prep/src /home/wwestlake/devel/Socraates-Prep/build /home/wwestlake/devel/Socraates-Prep/build/src /home/wwestlake/devel/Socraates-Prep/build/src/CMakeFiles/socrates.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wwestlake/devel/Socrates/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wwestlake/devel/Socrates /home/wwestlake/devel/Socrates/src /home/wwestlake/devel/Socrates/build /home/wwestlake/devel/Socrates/build/src /home/wwestlake/devel/Socrates/build/src/CMakeFiles/socrates.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/socrates.dir/depend
 

@@ -1,6 +1,6 @@
 src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o: \
-  /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc \
-  /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.hh \
+  /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc \
+  /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.hh \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/memory \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_algobase.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/c++config.h \
@@ -171,17 +171,7 @@ src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_vector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_bvector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/vector.tcc \
-  /home/wwestlake/devel/Socraates-Prep/src/SocratesAST.hpp \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/map \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/node_handle.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/optional \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/enable_special_members.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_map.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_multimap.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/erase_if.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/cassert \
-  /usr/include/assert.h \
+  /home/wwestlake/devel/Socrates/src/SocratesAST.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/ios \
@@ -205,13 +195,23 @@ src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/istream.tcc \
-  /home/wwestlake/devel/Socraates-Prep/build/src/location.hh \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/map \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_tree.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/node_handle.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/optional \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/enable_special_members.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_map.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/stl_multimap.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/erase_if.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/cassert \
+  /usr/include/assert.h \
+  /home/wwestlake/devel/Socrates/build/src/location.hh \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/codecvt.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/basic_file.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/c++io.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/fstream.tcc \
-  /home/wwestlake/devel/Socraates-Prep/src/soc_driver.hpp \
+  /home/wwestlake/devel/Socrates/src/soc_driver.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/cstddef \
-  /home/wwestlake/devel/Socraates-Prep/src/soc_scanner.hpp \
+  /home/wwestlake/devel/Socrates/src/soc_scanner.hpp \
   /usr/include/FlexLexer.h

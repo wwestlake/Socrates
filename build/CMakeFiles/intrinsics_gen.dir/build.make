@@ -53,10 +53,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wwestlake/devel/Socraates-Prep
+CMAKE_SOURCE_DIR = /home/wwestlake/devel/Socrates
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wwestlake/devel/Socraates-Prep/build
+CMAKE_BINARY_DIR = /home/wwestlake/devel/Socrates/build
 
 # Utility rule file for intrinsics_gen.
 
@@ -78,6 +78,6 @@ CMakeFiles/intrinsics_gen.dir/clean:
 .PHONY : CMakeFiles/intrinsics_gen.dir/clean
 
 CMakeFiles/intrinsics_gen.dir/depend:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wwestlake/devel/Socraates-Prep /home/wwestlake/devel/Socraates-Prep /home/wwestlake/devel/Socraates-Prep/build /home/wwestlake/devel/Socraates-Prep/build /home/wwestlake/devel/Socraates-Prep/build/CMakeFiles/intrinsics_gen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wwestlake/devel/Socrates/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wwestlake/devel/Socrates /home/wwestlake/devel/Socrates /home/wwestlake/devel/Socrates/build /home/wwestlake/devel/Socrates/build /home/wwestlake/devel/Socrates/build/CMakeFiles/intrinsics_gen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/intrinsics_gen.dir/depend
 

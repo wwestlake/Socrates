@@ -57,10 +57,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wwestlake/devel/Socraates-Prep
+CMAKE_SOURCE_DIR = /home/wwestlake/devel/Socrates
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wwestlake/devel/Socraates-Prep/build
+CMAKE_BINARY_DIR = /home/wwestlake/devel/Socrates/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwestlake/devel/Socraates-Prep/build/CMakeFiles /home/wwestlake/devel/Socraates-Prep/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwestlake/devel/Socrates/build/CMakeFiles /home/wwestlake/devel/Socrates/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwestlake/devel/Socraates-Prep/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwestlake/devel/Socrates/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

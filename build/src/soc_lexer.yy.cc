@@ -1,6 +1,6 @@
-#line 2 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc"
+#line 2 "/home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc"
 
-#line 4 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc"
+#line 4 "/home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc"
 
 #define  YY_INT_ALIGNED short int
 
@@ -500,8 +500,8 @@ static const flex_int16_t yy_rule_linenum[9] =
 #define yymore() yymore_used_but_not_detected
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
-#line 1 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
-#line 2 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 1 "/home/wwestlake/devel/Socrates/src/lexer.l"
+#line 2 "/home/wwestlake/devel/Socrates/src/lexer.l"
     #include <string>
     #include <iostream>
 
@@ -520,8 +520,8 @@ static const flex_int16_t yy_rule_linenum[9] =
     /* update location on matching */
     #define YY_USER_ACTION loc->step(); loc->columns(yyleng);
  
-#line 524 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc"
-#line 525 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc"
+#line 524 "/home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc"
+#line 525 "/home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc"
 
 #define INITIAL 0
 
@@ -713,14 +713,14 @@ YY_DECL
 
 	{
 /* %% [7.0] user's declarations go here */
-#line 42 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 42 "/home/wwestlake/devel/Socrates/src/lexer.l"
 
           /** Code executed at the beginning of yylex **/
-#line 45 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 45 "/home/wwestlake/devel/Socrates/src/lexer.l"
             yylval = lval;
 
 
-#line 724 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc"
+#line 724 "/home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -802,12 +802,12 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 48 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 48 "/home/wwestlake/devel/Socrates/src/lexer.l"
 {}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 50 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 50 "/home/wwestlake/devel/Socrates/src/lexer.l"
 { 
                 yylval->build< std::string >( yytext ); 
                 return token::OP;
@@ -815,7 +815,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 55 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 55 "/home/wwestlake/devel/Socrates/src/lexer.l"
 {
                 yylval->build< std::string >( yytext );
                 return token::IDENT;
@@ -823,29 +823,29 @@ YY_RULE_SETUP
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 61 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 61 "/home/wwestlake/devel/Socrates/src/lexer.l"
 {
                 return token::MODULE;
             }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 65 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 65 "/home/wwestlake/devel/Socrates/src/lexer.l"
 { return token::SEMICOLON; }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 66 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 66 "/home/wwestlake/devel/Socrates/src/lexer.l"
 { return token::OBRACE; } 
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 67 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 67 "/home/wwestlake/devel/Socrates/src/lexer.l"
 { return token::CBRACE; } 
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 69 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 69 "/home/wwestlake/devel/Socrates/src/lexer.l"
 {  
                 yylval->build< float >( std::atof(yytext) );
                 return token::FLT;
@@ -853,10 +853,10 @@ YY_RULE_SETUP
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 74 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 74 "/home/wwestlake/devel/Socrates/src/lexer.l"
 YY_FATAL_ERROR( "flex scanner jammed" );
 	YY_BREAK
-#line 860 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_lexer.yy.cc"
+#line 860 "/home/wwestlake/devel/Socrates/build/src/soc_lexer.yy.cc"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1974,7 +1974,7 @@ void yyfree (void * ptr )
 
 /* %ok-for-header */
 
-#line 74 "/home/wwestlake/devel/Socraates-Prep/src/lexer.l"
+#line 74 "/home/wwestlake/devel/Socrates/src/lexer.l"
 
 
 

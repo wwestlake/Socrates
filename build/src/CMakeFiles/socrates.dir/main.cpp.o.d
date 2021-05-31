@@ -1,5 +1,5 @@
 src/CMakeFiles/socrates.dir/main.cpp.o: \
-  /home/wwestlake/devel/Socraates-Prep/src/main.cpp \
+  /home/wwestlake/devel/Socrates/src/main.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/c++config.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -920,6 +920,6 @@ src/CMakeFiles/socrates.dir/main.cpp.o: \
   /usr/local/include/boost/program_options/detail/convert.hpp \
   /usr/local/include/boost/program_options/variables_map.hpp \
   /usr/local/include/boost/program_options/version.hpp \
-  /home/wwestlake/devel/Socraates-Prep/src/defs.hpp \
-  /home/wwestlake/devel/Socraates-Prep/src/Compiler.hpp \
-  /home/wwestlake/devel/Socraates-Prep/src/SocratesAST.hpp
+  /home/wwestlake/devel/Socrates/src/defs.hpp \
+  /home/wwestlake/devel/Socrates/src/Compiler.hpp \
+  /home/wwestlake/devel/Socrates/src/SocratesAST.hpp

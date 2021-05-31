@@ -57,10 +57,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wwestlake/devel/Socraates-Prep
+CMAKE_SOURCE_DIR = /home/wwestlake/devel/Socrates
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wwestlake/devel/Socraates-Prep/build
+CMAKE_BINARY_DIR = /home/wwestlake/devel/Socrates/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wwestlake/devel/Socraates-Prep/build/CMakeFiles /home/wwestlake/devel/Socraates-Prep/build/src//CMakeFiles/progress.marks
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwestlake/devel/Socraates-Prep/build/CMakeFiles 0
+	cd /home/wwestlake/devel/Socrates/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wwestlake/devel/Socrates/build/CMakeFiles /home/wwestlake/devel/Socrates/build/src//CMakeFiles/progress.marks
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwestlake/devel/Socrates/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/wwestlake/devel/Socrates/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/socrates.dir/rule:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/socrates.dir/rule
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/socrates.dir/rule
 .PHONY : src/CMakeFiles/socrates.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ socrates: src/CMakeFiles/socrates.dir/rule
 
 # fast build rule for target.
 socrates/fast:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/build
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/build
 .PHONY : socrates/fast
 
 Compiler.o: Compiler.cpp.o
@@ -135,7 +135,7 @@ Compiler.o: Compiler.cpp.o
 
 # target to build an object file
 Compiler.cpp.o:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/Compiler.cpp.o
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/Compiler.cpp.o
 .PHONY : Compiler.cpp.o
 
 Compiler.i: Compiler.cpp.i
@@ -143,7 +143,7 @@ Compiler.i: Compiler.cpp.i
 
 # target to preprocess a source file
 Compiler.cpp.i:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/Compiler.cpp.i
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/Compiler.cpp.i
 .PHONY : Compiler.cpp.i
 
 Compiler.s: Compiler.cpp.s
@@ -151,7 +151,7 @@ Compiler.s: Compiler.cpp.s
 
 # target to generate assembly for a file
 Compiler.cpp.s:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/Compiler.cpp.s
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/Compiler.cpp.s
 .PHONY : Compiler.cpp.s
 
 main.o: main.cpp.o
@@ -159,7 +159,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/main.cpp.o
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -167,7 +167,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/main.cpp.i
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -175,7 +175,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/main.cpp.s
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 soc_driver.o: soc_driver.cpp.o
@@ -183,7 +183,7 @@ soc_driver.o: soc_driver.cpp.o
 
 # target to build an object file
 soc_driver.cpp.o:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_driver.cpp.o
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_driver.cpp.o
 .PHONY : soc_driver.cpp.o
 
 soc_driver.i: soc_driver.cpp.i
@@ -191,7 +191,7 @@ soc_driver.i: soc_driver.cpp.i
 
 # target to preprocess a source file
 soc_driver.cpp.i:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_driver.cpp.i
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_driver.cpp.i
 .PHONY : soc_driver.cpp.i
 
 soc_driver.s: soc_driver.cpp.s
@@ -199,7 +199,7 @@ soc_driver.s: soc_driver.cpp.s
 
 # target to generate assembly for a file
 soc_driver.cpp.s:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_driver.cpp.s
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_driver.cpp.s
 .PHONY : soc_driver.cpp.s
 
 soc_lexer.yy.o: soc_lexer.yy.cc.o
@@ -207,7 +207,7 @@ soc_lexer.yy.o: soc_lexer.yy.cc.o
 
 # target to build an object file
 soc_lexer.yy.cc.o:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.o
 .PHONY : soc_lexer.yy.cc.o
 
 soc_lexer.yy.i: soc_lexer.yy.cc.i
@@ -215,7 +215,7 @@ soc_lexer.yy.i: soc_lexer.yy.cc.i
 
 # target to preprocess a source file
 soc_lexer.yy.cc.i:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.i
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.i
 .PHONY : soc_lexer.yy.cc.i
 
 soc_lexer.yy.s: soc_lexer.yy.cc.s
@@ -223,7 +223,7 @@ soc_lexer.yy.s: soc_lexer.yy.cc.s
 
 # target to generate assembly for a file
 soc_lexer.yy.cc.s:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.s
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_lexer.yy.cc.s
 .PHONY : soc_lexer.yy.cc.s
 
 soc_parser.tab.o: soc_parser.tab.cc.o
@@ -231,7 +231,7 @@ soc_parser.tab.o: soc_parser.tab.cc.o
 
 # target to build an object file
 soc_parser.tab.cc.o:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_parser.tab.cc.o
 .PHONY : soc_parser.tab.cc.o
 
 soc_parser.tab.i: soc_parser.tab.cc.i
@@ -239,7 +239,7 @@ soc_parser.tab.i: soc_parser.tab.cc.i
 
 # target to preprocess a source file
 soc_parser.tab.cc.i:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_parser.tab.cc.i
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_parser.tab.cc.i
 .PHONY : soc_parser.tab.cc.i
 
 soc_parser.tab.s: soc_parser.tab.cc.s
@@ -247,7 +247,7 @@ soc_parser.tab.s: soc_parser.tab.cc.s
 
 # target to generate assembly for a file
 soc_parser.tab.cc.s:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_parser.tab.cc.s
+	cd /home/wwestlake/devel/Socrates/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/socrates.dir/build.make src/CMakeFiles/socrates.dir/soc_parser.tab.cc.s
 .PHONY : soc_parser.tab.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wwestlake/devel/Socraates-Prep/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/wwestlake/devel/Socrates/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

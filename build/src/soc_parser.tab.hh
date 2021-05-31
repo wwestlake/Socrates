@@ -32,7 +32,7 @@
 
 
 /**
- ** \file /home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.hh
+ ** \file /home/wwestlake/devel/Socrates/build/src/soc_parser.tab.hh
  ** Define the SOC::parser class.
  */
 
@@ -41,10 +41,10 @@
 // Undocumented macros, especially those whose name start with YY_,
 // are private implementation details.  Do not rely on them.
 
-#ifndef YY_YY_HOME_WWESTLAKE_DEVEL_SOCRAATES_PREP_BUILD_SRC_SOC_PARSER_TAB_HH_INCLUDED
-# define YY_YY_HOME_WWESTLAKE_DEVEL_SOCRAATES_PREP_BUILD_SRC_SOC_PARSER_TAB_HH_INCLUDED
+#ifndef YY_YY_HOME_WWESTLAKE_DEVEL_SOCRATES_BUILD_SRC_SOC_PARSER_TAB_HH_INCLUDED
+# define YY_YY_HOME_WWESTLAKE_DEVEL_SOCRATES_BUILD_SRC_SOC_PARSER_TAB_HH_INCLUDED
 // "%code requires" blocks.
-#line 15 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 15 "/home/wwestlake/devel/Socrates/src/parser.y"
 
 
    #include <memory>
@@ -70,7 +70,7 @@
 # endif
 
 
-#line 74 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.hh"
+#line 74 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.hh"
 
 # include <cassert>
 # include <cstdlib> // std::abort
@@ -203,9 +203,9 @@
 # define YYDEBUG 1
 #endif
 
-#line 6 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 6 "/home/wwestlake/devel/Socrates/src/parser.y"
 namespace SOC {
-#line 209 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.hh"
+#line 209 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.hh"
 
 
 
@@ -1185,12 +1185,12 @@ switch (yytype)
   };
 
 
-#line 6 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 6 "/home/wwestlake/devel/Socrates/src/parser.y"
 } // SOC
-#line 1191 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.hh"
+#line 1191 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.hh"
 
 
 
 
 
-#endif // !YY_YY_HOME_WWESTLAKE_DEVEL_SOCRAATES_PREP_BUILD_SRC_SOC_PARSER_TAB_HH_INCLUDED
+#endif // !YY_YY_HOME_WWESTLAKE_DEVEL_SOCRATES_BUILD_SRC_SOC_PARSER_TAB_HH_INCLUDED

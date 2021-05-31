@@ -41,7 +41,7 @@
 
 
 // Unqualified %code blocks.
-#line 44 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 44 "/home/wwestlake/devel/Socrates/src/parser.y"
 
    #include <iostream>
    #include <cstdlib>
@@ -57,7 +57,7 @@
    #undef yylex
    #define yylex scanner.yylex
 
-#line 61 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc"
+#line 61 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
 
 
 #ifndef YY_
@@ -147,9 +147,9 @@
 #define YYERROR         goto yyerrorlab
 #define YYRECOVERING()  (!!yyerrstatus_)
 
-#line 6 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 6 "/home/wwestlake/devel/Socrates/src/parser.y"
 namespace SOC {
-#line 153 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc"
+#line 153 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
 
 
   /// Build a parser object.
@@ -730,19 +730,23 @@ namespace SOC {
           switch (yyn)
             {
   case 5:
-#line 86 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
-                                 { yylhs.value.as < exp_ast > () = MakeNumberExpr(YY_MOVE (yystack_[0].value.as < float > ())); }
-#line 736 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc"
+#line 86 "/home/wwestlake/devel/Socrates/src/parser.y"
+                                 { 
+                                    yylhs.value.as < exp_ast > () = MakeNumberExpr(YY_MOVE (yystack_[0].value.as < float > ())); 
+                                 }
+#line 738 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
     break;
 
   case 6:
-#line 87 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
-                                 { yylhs.value.as < exp_ast > () = MakeBinaryExpr(YY_MOVE (yystack_[1].value.as < std::string > ()), std::move(YY_MOVE (yystack_[2].value.as < exp_ast > ())), std::move(YY_MOVE (yystack_[0].value.as < exp_ast > ()))); }
-#line 742 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc"
+#line 89 "/home/wwestlake/devel/Socrates/src/parser.y"
+                                 { 
+                                    yylhs.value.as < exp_ast > () = MakeBinaryExpr(YY_MOVE (yystack_[1].value.as < std::string > ()), std::move(YY_MOVE (yystack_[2].value.as < exp_ast > ())), std::move(YY_MOVE (yystack_[0].value.as < exp_ast > ()))); 
+                                 }
+#line 746 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
     break;
 
 
-#line 746 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc"
+#line 750 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
 
             default:
               break;
@@ -989,7 +993,7 @@ namespace SOC {
   const SOC_Parser::yytname_[] =
   {
   "\"end of file\"", "error", "$undefined", "OP", "MODULE", "IDENT",
-  "SEMICOLON", "OBRACE", "CBRACE", "FLT", "$accept", "pillar",
+  "SEMICOLON", "OBRACE", "CBRACE", "FLT", "$accept", "program",
   "expression", YY_NULLPTR
   };
 
@@ -997,7 +1001,7 @@ namespace SOC {
   const signed char
   SOC_Parser::yyrline_[] =
   {
-       0,    73,    73,    75,    76,    86,    87
+       0,    73,    73,    75,    76,    86,    89
   };
 
   // Print the state stack on the debug stream.
@@ -1076,11 +1080,11 @@ namespace SOC {
       return yy_undef_token_;
   }
 
-#line 6 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 6 "/home/wwestlake/devel/Socrates/src/parser.y"
 } // SOC
-#line 1082 "/home/wwestlake/devel/Socraates-Prep/build/src/soc_parser.tab.cc"
+#line 1086 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
 
-#line 90 "/home/wwestlake/devel/Socraates-Prep/src/parser.y"
+#line 94 "/home/wwestlake/devel/Socrates/src/parser.y"
 
 
 void 

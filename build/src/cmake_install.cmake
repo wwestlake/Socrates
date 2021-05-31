@@ -1,4 +1,4 @@
-# Install script for directory: /home/wwestlake/devel/Socraates-Prep/src
+# Install script for directory: /home/wwestlake/devel/Socrates/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
