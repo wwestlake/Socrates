@@ -1,0 +1,6 @@
+/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles/rebuild_cache.dir
+/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles/intrinsics_gen.dir
+/home/wwestlake/devel/Socraates-Prep/build/CMakeFiles/edit_cache.dir
+/home/wwestlake/devel/Socraates-Prep/build/src/CMakeFiles/rebuild_cache.dir
+/home/wwestlake/devel/Socraates-Prep/build/src/CMakeFiles/socrates.dir
+/home/wwestlake/devel/Socraates-Prep/build/src/CMakeFiles/edit_cache.dir
