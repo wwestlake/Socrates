@@ -85,9 +85,13 @@ module_code:
 expression:
     FLT                          { 
                                     $$ = MakeNumberExpr($1); 
+                                    $$->out(std::cout);
+                                    std::cout << std::endl;
                                  }; 
     | expression OP expression   { 
-                                    $$ = MakeBinaryExpr($2, std::move($1), std::move($3)); 
+                                    $$ = MakeBinaryExpr($2, $1, $3); 
+                                    $$->out(std::cout);
+                                    std::cout << std::endl;
                                  }
     ;
 
