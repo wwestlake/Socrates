@@ -16,6 +16,8 @@ class ExprAST {
 public:
   virtual ~ExprAST() {}
 
+  virtual void out(std::ostream& os) const = 0;
+
 
 };
 
@@ -26,6 +28,10 @@ class NumberExprAST : public ExprAST {
 public:
   NumberExprAST(double Val) : Val(Val) {}
 
+  virtual void out(std::ostream& os) const 
+  {
+      os << Val;
+  }
 
 };
 
@@ -41,6 +47,10 @@ class VariableExprAST : public ExprAST {
 public:
   VariableExprAST(const std::string &Name) : Name(Name) {}
 
+  virtual void out(std::ostream& os) const 
+  {
+    os << Name;
+  }
 
 
 };
@@ -60,6 +70,15 @@ public:
                 std::unique_ptr<ExprAST> RHS)
     : Op(op), LHS(std::move(LHS)), RHS(std::move(RHS)) {}
 
+  virtual void out(std::ostream& os) const
+  {
+    
+     LHS->out(os);
+     os << " ";
+     os << Op;
+     os << " ";
+     RHS->out(os);
+  }
 
 
 };
@@ -81,6 +100,7 @@ public:
               std::vector<std::unique_ptr<ExprAST>> Args)
     : Callee(Callee), Args(std::move(Args)) {}
 
+    virtual void out(std::ostream& os) const {}
 
 };
 

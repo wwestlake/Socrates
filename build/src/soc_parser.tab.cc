@@ -733,20 +733,24 @@ namespace SOC {
 #line 86 "/home/wwestlake/devel/Socrates/src/parser.y"
                                  { 
                                     yylhs.value.as < exp_ast > () = MakeNumberExpr(YY_MOVE (yystack_[0].value.as < float > ())); 
+                                    yylhs.value.as < exp_ast > ()->out(std::cout);
+                                    std::cout << std::endl;
                                  }
-#line 738 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
+#line 740 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
     break;
 
   case 6:
-#line 89 "/home/wwestlake/devel/Socrates/src/parser.y"
+#line 91 "/home/wwestlake/devel/Socrates/src/parser.y"
                                  { 
-                                    yylhs.value.as < exp_ast > () = MakeBinaryExpr(YY_MOVE (yystack_[1].value.as < std::string > ()), std::move(YY_MOVE (yystack_[2].value.as < exp_ast > ())), std::move(YY_MOVE (yystack_[0].value.as < exp_ast > ()))); 
+                                    yylhs.value.as < exp_ast > () = MakeBinaryExpr(YY_MOVE (yystack_[1].value.as < std::string > ()), YY_MOVE (yystack_[2].value.as < exp_ast > ()), YY_MOVE (yystack_[0].value.as < exp_ast > ())); 
+                                    yylhs.value.as < exp_ast > ()->out(std::cout);
+                                    std::cout << std::endl;
                                  }
-#line 746 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
+#line 750 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
     break;
 
 
-#line 750 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
+#line 754 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
 
             default:
               break;
@@ -1001,7 +1005,7 @@ namespace SOC {
   const signed char
   SOC_Parser::yyrline_[] =
   {
-       0,    73,    73,    75,    76,    86,    89
+       0,    73,    73,    75,    76,    86,    91
   };
 
   // Print the state stack on the debug stream.
@@ -1082,9 +1086,9 @@ namespace SOC {
 
 #line 6 "/home/wwestlake/devel/Socrates/src/parser.y"
 } // SOC
-#line 1086 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
+#line 1090 "/home/wwestlake/devel/Socrates/build/src/soc_parser.tab.cc"
 
-#line 94 "/home/wwestlake/devel/Socrates/src/parser.y"
+#line 98 "/home/wwestlake/devel/Socrates/src/parser.y"
 
 
 void 
